@@ -1,0 +1,11 @@
+@media only screen and (max-width:995px){
+    .areaBotaoTarefas button{ 
+        font-size: 9px;
+        width:12em;
+        margin-left: 10%;
+    }
+    
+    .tarefa button{
+        font-size: 8px;
+    }
+}

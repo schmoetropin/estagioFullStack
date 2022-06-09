@@ -1,0 +1,11 @@
+@media only screen and (max-width: 500px){
+    .tarForm button{ font-size: 9px;}
+
+    .tarefa{ min-height: 150px;}
+
+    .tarefa small {font-size: 9px;}
+
+    .areaBotaoTarefas button{ margin-left: 2%;}
+
+    .tarefaFormularios{ min-height: 46px;}
+}

@@ -1,0 +1,13 @@
+@media only screen and (max-width: 765px){
+    .botao{ margin-top: 2px;}
+
+    .tarefa{ min-height: 117px;}
+
+    .areaBotaoTarefas button{ 
+        font-size: 8px;
+        height: 5em;
+        margin-left: 8%;
+    }
+
+    .tarefaFormularios{ min-height: 35px;}
+}

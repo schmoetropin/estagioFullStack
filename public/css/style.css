@@ -1,0 +1,210 @@
+*{ 
+    margin: 0;
+    border: 0;
+}
+
+body{ background-color: #DCDCDC;}
+
+.siteConteudo{
+    text-align: center;
+}
+
+.siteTitulo{
+    background-color: #455A64;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.divTarefas{
+    border: 1px solid #455A64;
+    width: 28%;
+    height: 300px;
+    overflow: hidden;
+    float: left;
+    margin: 20px 0 0 3%;
+    padding: 6px;
+    border-radius: 6px;
+}
+
+.divTarefas h3{
+    width: 100%;
+    height: 40px;
+    color: #fff;
+    line-height: 40px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.divTarefas .nao_iniciado{ background-color: #E64A19;}
+
+.divTarefas .em_andamento{ background-color: #1976D2;}
+
+.divTarefas .concluido{ background-color: #388E3C;}
+
+.tarForm input[type=text]{
+    border: 1px solid #888;
+    border-radius: 4px;
+    padding: 6px;
+    height: 14px;
+    width: 65%;
+}
+
+.tarForm input[type=text]:hover{ border-color: #222;}
+
+.tarForm button{
+    border: 1px solid #444;
+    background-color: #444;
+    border-radius: 4px;
+    padding: 5px;
+    font-weight: bold;
+    height: 30px;
+    width: 13%;
+    cursor: pointer;
+    color: #fff;
+}
+
+.tarForm button:hover { background-color: #222;}
+
+.areaBotaoTarefas{
+    width: 100%;
+    height: 4em;
+    text-align: center;
+}
+
+.areaBotaoTarefas button{
+    margin: 20px 0 0 12%;
+}
+
+.divTarefas{ background-color: #fff;}
+
+.areaTarefas{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 260px;
+}
+
+.tarefa{
+    border: 1px solid;
+    border-radius: 4px;
+    padding: 2px;
+    margin: 5px 0;
+    min-height: 65px;
+}
+
+.avisoTarefa{ line-height: 63px;}
+
+.t_nao_iniciado{ 
+    border-color: #E64A19;
+    background-color: #FBE9E7;
+    color: #BF360C;
+}
+
+.t_em_andamento{ 
+    border-color: #1976D2;
+    background-color: #E3F2FD;
+    color: #01579B;
+}
+
+.t_concluido{ 
+    border-color: #388E3C;
+    background-color: #E8F5E9;
+    color: #004D40;
+}
+
+.tarefaFormularios{ min-height: 24px;}
+
+.botao{
+    border:1px;
+    border-radius: 6px;
+    padding: 4px;
+    font-weight: bold;
+    float: left;
+    margin-left: 3px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 10px;
+}
+
+.botaoAzul{
+    border-color: #1565C0;
+    background-color: #1565C0;
+}
+
+.botaoVermelho{
+    border-color: #D32F2F;
+    background-color: #D32F2F;
+}
+
+.botaoAmarelo{
+    border-color: #F9A825;
+    background-color: #F9A825;
+}
+
+.botaoVerde{
+    border-color: #388E3C;
+    background-color: #388E3C;
+}
+
+.botaoLaranja{
+    border-color: #E64A19;
+    background-color: #E64A19;
+}
+
+.botaoAzul:hover{ background-color: #283593;}
+
+.botaoVermelho:hover{ background-color: #B71C1C;}
+
+.botaoAmarelo:hover{ background-color: #F57F17;}
+
+.botaoVerde:hover{ background-color: #1B5E20;}
+
+.botaoLaranja:hover{background-color: #BF360C;}
+
+.botaoGrande{
+    width: 10%;
+    height: 3.5em;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.editarTarefaTitulo{
+    position: fixed;
+    border: 1px solid #222;
+    top: 15%;
+    left: 30%;
+    height: 120px;
+    width: 40%;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    overflow: hidden;
+    z-index: 100;
+    display: none;
+}
+
+.editTarefTitulo { 
+    background-color: #455A64;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+}
+
+.editarTarefaTitulo input[type=text]{
+    border: 1px solid #444;
+    padding: 4px;
+    width: 90%;
+    margin: 7px 0;
+}
+
+.fundoOpaco{
+    top: 0;
+    left: 0;
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    background-color: #000;
+    opacity: .7;
+    z-index: 99;
+    display: none;
+}
